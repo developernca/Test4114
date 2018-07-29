@@ -4,13 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.theffh.test4114.MainActivity">
+    tools:context=".IAPTestActivity">
 
     <Button
-        android:id="@+id/idBtnGoToIAPTest"
+        android:id="@+id/idBtnSetupBilling"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="buttonClick"
-        android:text="goto iap test" />
+        android:text="Test IAP" />
+
+    <Button
+        android:id="@+id/idBtnBuyItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idBtnSetupBilling"
+        android:onClick="buttonClick"
+        android:text="Buy Item" />
 
 </RelativeLayout>
